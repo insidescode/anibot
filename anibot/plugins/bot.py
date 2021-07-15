@@ -325,7 +325,7 @@ async def start_(client: Client, message: Message):
         await client.send_message(
             gid,
             text=f"""Kon'nichiwa!!!
-I'm {bot.first_name} bot and I can help you get info on Animes, Mangas, Characters, Airings, Schedules, Watch Orders of Animes, etc
+I'm {bot.first_name} and I can help you get info on Animes, Mangas, Characters, Airings, Schedules, Watch Orders of Animes, etc
 For more info send /help in here.
 If you wish to use me in a group start me by /start{BOT_NAME} command after adding me in the group."""
         )
