@@ -461,7 +461,7 @@ async def pong_(client: Client, message: Message):
 @control_user
 async def feed_(client: Client, message: Message):
     owner = await client.get_users(OWNER[0])
-    await client.send_message(message.chat.id, f"For issues or queries please contact @{owner.username} or join @hanabi_support")
+    await client.send_message(message.chat.id, f"For issues or queries please contact @{owner.username} or join @Zer0ByteSupport")
 
 ###### credits to @NotThatMF on tg since he gave me the code for it ######
 
